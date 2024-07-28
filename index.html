@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,7 +32,7 @@
 
         <button class="block md:hidden ml-3" onclick="openmenu()">
             <img src="./images/menu-black.png" alt="" class="w-6">
-        </button>
+        </button>   
     </div>
 
     <!-- ----------mobile menu-------------------- -->
@@ -52,7 +52,7 @@
 <!-- ---------------- header ---------------- -->
 
 <div class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
-    <img src="./images/profile-img.png" alt="" class="rounded-full w-32">
+    <img src="./images/myimg.JPG" alt="" class="rounded-full w-32">
     <h3 class="flex items-center gap-2 text-xl md:text-2xl mb-3 ">Hi! I'm Jatin <img src="./images/hand-icon.png" alt="" class="w-6"></h3>
     <h1 class="text=3xl sm:text-6xl lg:text-[66px]">Frontend Web Developer</h1>
     <p class="max-w-2xl mx-auto ">I am a frontend web developer from Delhi, India with 1 year of experience in multiple compnies like Microsoft, Tesla and Apple </p>
@@ -63,6 +63,70 @@
         <a href="./images/logo.png" download class="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white">My Resume<img src="./images/download-icon.png" alt="" class="w-4"></a>
     </div>
 </div>
+
+
+<!-- -----------------------about me-----------------------  -->
+
+<div id="about" class="w-full px-[12%] py-10 scroll-mt-20">
+    <h4 class="text-center mb-2 text-lg">Introduction</h4>
+    <h2 class="text-center text-5xl ">About Me</h2>
+
+    <div class="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
+        <div class="max-w-max mx-auto relative">
+            <img src="./images/user-image.png" alt="" class="w-64 sm:w-80 rounded-3xl max-w-none">
+            <div class="bg-white w-1/2 aspect-square absolute right-0 bottom-0 rounded-full translate-x-1/4 translate-y-1/3 shadow-[0_4px_55px_rgba(149,0,162,0.15)] flex items-center justify-center">
+                <img src="./images/circular-text.png" alt="" class="w-full">
+                <img src="./images/dev-icon.png" alt="" class="w-1/4 absolute top-1/2 left-1/2 -translate-x-1/2  -translate-y-1/2">
+
+            </div>
+        </div>
+        <div class="flex-1">
+            <p class="mb-10 max-w-2xl ">I am an exprenced frontend developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilage of collabrating with prestigious organization, contributing to their success and growth.</p>
+            <ul class="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl">
+                <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
+                <img src="./images/code-icon.png" alt="" class="w-7 mt-3 ">
+                <h3 class="my-4 font-semibold text-gray-700">Language</h3>
+                <p class="text-gray-600 text-sm">HTML, CSS, JS, REACT JS, NODE JS</p>
+            </li>
+                <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
+                <img src="./images/edu-icon.png" alt="" class="w-7 mt-3 ">
+                <h3 class="my-4 font-semibold text-gray-700">Education </h3>
+                <p class="text-gray-600 text-sm">BCA MCA in cumter science</p>
+            </li>
+                <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_0_#000]">
+                <img src="./images/project-icon.png" alt="" class="w-7 mt-3 ">
+                <h3 class="my-4 font-semibold text-gray-700">Project</h3>
+                <p class="text-gray-600 text-sm">Built more than 5 project</p>
+            </li>
+            </ul>
+            <h4 class="my-6 text-gray-700">Tools i use </h4>
+            <ul class="flex items-center gap-3 sm:gap-5">
+                <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg  cursor-pointer hover:-translate-y-1 duration-500">
+                    <img src="./images/vscode.png" alt="" class="w-5 sm:w-7 ">
+                </li>
+                <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg  cursor-pointer hover:-translate-y-1 duration-500">
+                    <img src="./images/firebase.png" alt="" class="w-5 sm:w-7 ">
+                </li>
+                <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg  cursor-pointer hover:-translate-y-1 duration-500">
+                    <img src="./images/mongodb.png" alt="" class="w-5 sm:w-7 ">
+                </li>
+                <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg  cursor-pointer hover:-translate-y-1 duration-500">
+                    <img src="./images/figma.png" alt="" class="w-5 sm:w-7 ">
+                </li>
+                <li class="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg  cursor-pointer hover:-translate-y-1 duration-500">
+                    <img src="./images/git.png" alt="" class="w-5 sm:w-7">
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- -----------------------Services-----------------------  -->
+
+
+
+
+
     <script src="script.js"></script>
 </body>
 </html>
